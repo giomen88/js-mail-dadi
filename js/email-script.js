@@ -6,11 +6,11 @@ let message;
 
 for (let i = 0; i < emails.length; i++) {
 
-    if (userEmail == emails[i]) {
+    if (emails.includes(userEmail)) {
         message = 'Benvenuto'
     }
 
-    else if (userEmail != emails[i]) {
+    else {
         message = 'Spiacenti'
     }
 }

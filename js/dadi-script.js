@@ -20,7 +20,7 @@ else if (myNumber < pcNumber) {
     message += 'PC'
 }
 
-else if (myNumber === pcNumber) {
+else {
     message += 'NOBODY'
 }
 
