@@ -4,15 +4,13 @@ const userEmail = prompt('Inserisci la tua email');
 
 let message;
 
-for (let i = 0; i < emails.length; i++) {
-
-    if (emails.includes(userEmail)) {
-        message = 'Benvenuto'
-    }
-
-    else {
-        message = 'Spiacenti'
-    }
+if (emails.includes(userEmail)) {
+    message = 'Benvenuto'
 }
+
+else {
+    message = 'Spiacenti'
+}
+
 
 console.log(message)
